@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="QuizList.css">
+</head>
+<body>
+    <div class="header">
+        Quiz List
+    </div>
+    <div class="main">
+        <div class="main"><a id="logout">Logout</a></div>
+    </div>
+</body>
+<script src="QuizList.js"></script>
+<script>
+    document.getElementById('logout').href = `http://${window.location.hostname}:${window.location.port}/auth/logout`;
+</script>
+</html>

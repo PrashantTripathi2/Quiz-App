@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="QuizView.css">
+</head>
+<body>
+    <div class="header">
+        Quize View
+    </div>
+    <div class="main">
+        <div class = 'main'><a id="logout">Logout</a></div>
+        <div class="score"></div>
+        <div class="quize-title-mark">
+            <span id="title"></span>
+            <span id="marks"></span>
+        </div>
+        <div id="Questions"></div>
+    </div>
+    <div class="footer">
+        <button id="Submit">Submit</button>
+    </div>
+</body>
+<script src="QuizView.js"></script>
+<script>
+    document.getElementById('logout').href = `http://${window.location.hostname}:${window.location.port}/auth/logout`;
+</script>
+</html>

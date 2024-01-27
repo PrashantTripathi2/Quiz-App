@@ -1,0 +1,103 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.main,#status {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+#status{
+    display: none;
+}
+.quize-title-mark {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#title,
+#marks {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#marks {
+    width: calc(100% - 20px); /* Adjust the width for better alignment */
+}
+
+.Question-Options {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.Question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.Options {
+    display: flex;
+    flex-direction: column;
+}
+
+.Option {
+    margin-bottom: 10px;
+}
+
+.Edit-Question,
+.Edit-Option,.Edit-Right-Option {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button ,.cross{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cross{
+    float: right;
+}
+
+#Add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+/* Style for Submit button (you can customize as needed) */
+button[type="submit"] {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+}

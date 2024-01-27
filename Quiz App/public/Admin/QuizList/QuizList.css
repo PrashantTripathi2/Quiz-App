@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to 100% of the viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    flex: 1; /* Set header to 10% of the viewport height */
+}
+
+.main {
+    margin: 20px;
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+    flex: 8; /* Set main to 80% of the viewport height */
+}
+
+.Quize {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Quize .Title {
+    flex: 1;
+}
+
+.Quize .Edit,
+.Quize .View,
+.Quize .Remove {
+    cursor: pointer;
+    padding: 5px;
+    background-color: #3498db;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: #ecf0f1;
+    padding: 10px;
+    display: flex;
+    flex: 1; /* Set footer to 10% of the viewport height */
+}
+
+#Title {
+    flex: 9;
+    padding: 5px;
+    font-size: xx-large;
+    margin-right: 10px;
+}
+
+#Add {
+    flex: 1;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: x-large;
+    border: none;
+}
+
+#Add:hover {
+    background-color: #27ae60;
+}
